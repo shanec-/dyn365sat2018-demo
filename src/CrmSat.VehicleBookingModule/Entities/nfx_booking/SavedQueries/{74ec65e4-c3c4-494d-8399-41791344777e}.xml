@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{74ec65e4-c3c4-494d-8399-41791344777e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nfx_name" select="1" icon="1" preview="1">
+        <row name="result" id="nfx_bookingid">
+          <cell name="nfx_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="100" imageproviderfunctionname="nfx.displayIconTooltip" imageproviderwebresource="$webresource:nfx_/Booking/Scripts/bookingView.js" />
+          <cell name="ownerid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="nfx_booking">
+          <attribute name="nfx_name" />
+          <attribute name="createdon" />
+          <attribute name="ownerid" />
+          <attribute name="statuscode" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="createdon" operator="last-x-days" value="30" />
+          </filter>
+          <attribute name="nfx_bookingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Recent Bookings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

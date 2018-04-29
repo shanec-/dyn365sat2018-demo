@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="nfx_rentalmode" localizedName="Rental Mode" description="Vehicle Mode">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Rental Mode" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Vehicle Mode" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="224820000" Color="#0000ff">
+      <labels>
+        <label description="Hourly" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="224820001" Color="#0000ff">
+      <labels>
+        <label description="Daily" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="224820002" Color="#0000ff">
+      <labels>
+        <label description="Monthly" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

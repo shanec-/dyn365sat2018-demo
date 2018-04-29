@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{9cc74e90-d926-4d23-9cd2-f456719efeb0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{fa2f15c0-6a11-4583-993d-3a2096f75aa0}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4dad5e8e-8fe2-484f-a0eb-6c4780edbe85}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c7cbc5e2-9a1a-44e3-8cbe-fba24cf18566}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nfx_name" uniqueid="{ddabe6e6-5dd6-5e90-45ea-e3d47c66dd6e}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8996411a-3b39-4a2d-8ea2-12e3347e26a7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_vehicleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nfx_vehicleid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3eec5bb7-263c-9a87-50cb-54513abe6116}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_rentalmode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="nfx_rentalmode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{001d3b04-769c-93ed-c1ac-08034b0390ad}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_priceperunit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="nfx_priceperunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e40fabf8-58b6-412b-a3d8-da2a23414b8b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

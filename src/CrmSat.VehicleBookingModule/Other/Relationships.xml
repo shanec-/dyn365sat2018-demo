@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="bpf_nfx_booking_nfx_bookingprocessflow" />
+  <EntityRelationship Name="business_unit_nfx_booking" />
+  <EntityRelationship Name="business_unit_nfx_vehicle" />
+  <EntityRelationship Name="business_unit_nfx_vehiclerentalmode" />
+  <EntityRelationship Name="lk_nfx_booking_createdby" />
+  <EntityRelationship Name="lk_nfx_booking_modifiedby" />
+  <EntityRelationship Name="lk_nfx_bookingprocessflow_activestageid" />
+  <EntityRelationship Name="lk_nfx_bookingprocessflow_createdby" />
+  <EntityRelationship Name="lk_nfx_bookingprocessflow_modifiedby" />
+  <EntityRelationship Name="lk_nfx_bookingprocessflow_processid" />
+  <EntityRelationship Name="lk_nfx_vehicle_createdby" />
+  <EntityRelationship Name="lk_nfx_vehicle_modifiedby" />
+  <EntityRelationship Name="lk_nfx_vehiclerentalmode_createdby" />
+  <EntityRelationship Name="lk_nfx_vehiclerentalmode_modifiedby" />
+  <EntityRelationship Name="nfx_contact_booking" />
+  <EntityRelationship Name="nfx_vehicle_booking" />
+  <EntityRelationship Name="nfx_vehicle_vehiclerentalmode" />
+  <EntityRelationship Name="nfx_vehiclerentalmode_booking" />
+  <EntityRelationship Name="organization_nfx_bookingprocessflow" />
+  <EntityRelationship Name="owner_nfx_booking" />
+  <EntityRelationship Name="owner_nfx_vehicle" />
+  <EntityRelationship Name="owner_nfx_vehiclerentalmode" />
+  <EntityRelationship Name="team_nfx_booking" />
+  <EntityRelationship Name="team_nfx_vehicle" />
+  <EntityRelationship Name="team_nfx_vehiclerentalmode" />
+  <EntityRelationship Name="TransactionCurrency_nfx_booking" />
+  <EntityRelationship Name="TransactionCurrency_nfx_vehiclerentalmode" />
+  <EntityRelationship Name="user_nfx_booking" />
+  <EntityRelationship Name="user_nfx_vehicle" />
+  <EntityRelationship Name="user_nfx_vehiclerentalmode" />
+</EntityRelationships>

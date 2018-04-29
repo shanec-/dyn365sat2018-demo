@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FieldSecurityProfiles>
+  <FieldSecurityProfile name="Booking Module - Financial" description="Booking Module - Financial" fieldsecurityprofileid="{053590e0-e768-e711-813e-e0071b6d9931}">
+    <FieldPermissions />
+  </FieldSecurityProfile>
+</FieldSecurityProfiles>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report>
+  <name>Booking Summary</name>
+  <defaultfilter>
+    <ReportFilter>
+      <ReportEntity paramname="CRM_Filterednfx_booking" donotconvert="1">
+        <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+          <entity name="nfx_booking">
+            <all-attributes />
+            <filter type="and">
+              <condition attribute="nfx_bookingdate" operator="last-x-days" value="30" />
+            </filter>
+          </entity>
+        </fetch>
+      </ReportEntity>
+    </ReportFilter>
+  </defaultfilter>
+  <iscustomreport>1</iscustomreport>
+  <filename>Booking Summary.rdl</filename>
+  <languagecode>1033</languagecode>
+  <reportid>{f2267f81-dd68-e711-813e-e0071b6d9931}</reportid>
+  <reporttypecode>1</reporttypecode>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <createdinmajorversion>8</createdinmajorversion>
+  <iscustomizable>1</iscustomizable>
+  <ExportedFileName>/Reports/BookingSummaryrdlf2267f81-dd68-e711-813e-e0071b6d9931.wdl</ExportedFileName>
+  <ReportCategories />
+  <ReportVisibilities>
+    <ReportVisbility>2</ReportVisbility>
+    <ReportVisbility>3</ReportVisbility>
+    <ReportVisbility>1</ReportVisbility>
+  </ReportVisibilities>
+  <ReportEntities>
+    <ReportEntity>nfx_booking</ReportEntity>
+  </ReportEntities>
+</Report>

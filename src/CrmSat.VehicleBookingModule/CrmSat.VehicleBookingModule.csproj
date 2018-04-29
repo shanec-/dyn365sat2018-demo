@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6ABE72CF-8F9E-40BB-9591-0FAB41912E9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CrmSat.VehicleBookingModule</RootNamespace>
+    <AssemblyName>CrmSat.VehicleBookingModule</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppModuleSiteMaps\nfx_vehiclebooking\AppModuleSiteMap.xml" />
+    <Content Include="AppModules\nfx_VehicleBooking\AppModule.xml" />
+    <Content Include="Entities\Contact\Entity.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{6fc60270-9abe-418c-910f-77248d95b560}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{6fc60270-9abe-418c-910f-77248d95b560}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{bdb0ae1c-32fa-4374-b637-8dafe107bc44}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{bdb0ae1c-32fa-4374-b637-8dafe107bc44}_managed.xml" />
+    <Content Include="Entities\Contact\RibbonDiff.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\Entity.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\FormXml\main\{f18ce7c6-7110-4bb4-a44b-a89baba5ae95}.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\FormXml\main\{f18ce7c6-7110-4bb4-a44b-a89baba5ae95}_managed.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\RibbonDiff.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\SavedQueries\{13c1d0f1-9464-e711-815c-e0071b675c91}.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\SavedQueries\{344540b8-d7f7-421f-8bd1-ca3758ee24f2}.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\SavedQueries\{4a01c54c-d345-45b6-8056-c86f1263c256}.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\SavedQueries\{4fd889bf-2056-4643-973e-f27b874eea54}.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\SavedQueries\{7518e71c-61fb-4bec-8d0a-6d81402a6b4a}.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\SavedQueries\{c5eb2f54-8da2-43a2-80d4-78716c7b5993}.xml" />
+    <Content Include="Entities\nfx_bookingprocessflow\SavedQueries\{f857cbca-51f5-4982-baff-dc9ce12197a8}.xml" />
+    <Content Include="Entities\nfx_booking\Entity.xml" />
+    <Content Include="Entities\nfx_booking\FormXml\card\{d7eb5997-db14-4034-98a5-42b983b81031}.xml" />
+    <Content Include="Entities\nfx_booking\FormXml\card\{d7eb5997-db14-4034-98a5-42b983b81031}_managed.xml" />
+    <Content Include="Entities\nfx_booking\FormXml\main\{0bcf9c96-3b2f-4731-97d2-655148289fa1}.xml" />
+    <Content Include="Entities\nfx_booking\FormXml\main\{0bcf9c96-3b2f-4731-97d2-655148289fa1}_managed.xml" />
+    <Content Include="Entities\nfx_booking\FormXml\main\{224a8556-e070-49ce-a8ca-6753e1b0f358}.xml" />
+    <Content Include="Entities\nfx_booking\FormXml\main\{224a8556-e070-49ce-a8ca-6753e1b0f358}_managed.xml" />
+    <Content Include="Entities\nfx_booking\FormXml\quick\{4c9daaf2-45b0-4fef-9635-8c765267f63a}.xml" />
+    <Content Include="Entities\nfx_booking\FormXml\quick\{4c9daaf2-45b0-4fef-9635-8c765267f63a}_managed.xml" />
+    <Content Include="Entities\nfx_booking\RibbonDiff.xml" />
+    <Content Include="Entities\nfx_booking\SavedQueries\{0c48e2ea-1f94-4c7f-ad2e-c6a19f4bfc4e}.xml" />
+    <Content Include="Entities\nfx_booking\SavedQueries\{50de8471-194e-4d9c-b372-5c4777cf2885}.xml" />
+    <Content Include="Entities\nfx_booking\SavedQueries\{548c2b43-0a5a-4447-a2b0-a9fdfdb411ef}.xml" />
+    <Content Include="Entities\nfx_booking\SavedQueries\{74ec65e4-c3c4-494d-8399-41791344777e}.xml" />
+    <Content Include="Entities\nfx_booking\SavedQueries\{a4f61303-4464-e711-815c-e0071b675c91}.xml" />
+    <Content Include="Entities\nfx_booking\SavedQueries\{b250b683-4c72-e711-815e-e0071b675c91}.xml" />
+    <Content Include="Entities\nfx_booking\SavedQueries\{b8a650e6-98fa-4da3-8847-6be18e157125}.xml" />
+    <Content Include="Entities\nfx_booking\SavedQueries\{dc0f6d8b-1948-4a66-8412-ed012913773b}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\Entity.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\FormXml\card\{f91bdb37-21ac-45e6-985a-bf95de671221}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\FormXml\card\{f91bdb37-21ac-45e6-985a-bf95de671221}_managed.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\FormXml\main\{520f2fbc-5f9e-46e2-86c8-029feee57f88}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\FormXml\main\{520f2fbc-5f9e-46e2-86c8-029feee57f88}_managed.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\FormXml\main\{9cc74e90-d926-4d23-9cd2-f456719efeb0}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\FormXml\main\{9cc74e90-d926-4d23-9cd2-f456719efeb0}_managed.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\FormXml\quick\{58ca0a6f-caa5-48c5-945f-c9b25acce236}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\FormXml\quick\{58ca0a6f-caa5-48c5-945f-c9b25acce236}_managed.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\RibbonDiff.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\SavedQueries\{193978a5-4f4f-44f9-a61c-65853076e2c0}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\SavedQueries\{5f411ce5-4164-e711-815c-e0071b675c91}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\SavedQueries\{623ec67b-aebe-48fb-84a2-6a2365b49af8}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\SavedQueries\{64090e79-2b40-4aae-a482-7b835ab64c7e}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\SavedQueries\{72e2e987-1315-4654-94b2-c1f6b9d91906}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\SavedQueries\{d2afe4ed-1299-42e1-b9ef-fcc342358409}.xml" />
+    <Content Include="Entities\nfx_vehiclerentalmode\SavedQueries\{e1134594-1af0-45dc-9bab-585f8ddba057}.xml" />
+    <Content Include="Entities\nfx_vehicle\Entity.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\card\{5a107164-4287-4a21-bf4c-f77035d829a2}.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\card\{5a107164-4287-4a21-bf4c-f77035d829a2}_managed.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\main\{2e7398de-087e-4e77-8e0f-267f583d596c}.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\main\{2e7398de-087e-4e77-8e0f-267f583d596c}_managed.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\main\{df28b32e-eaa6-4a2d-aa7a-ddc99d4fcd6c}.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\main\{df28b32e-eaa6-4a2d-aa7a-ddc99d4fcd6c}_managed.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\quick\{390d1358-5b75-464f-95f2-830c6349f691}.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\quick\{390d1358-5b75-464f-95f2-830c6349f691}_managed.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\quick\{b7eb3fc4-3df9-4314-b9c3-4cc743c83287}.xml" />
+    <Content Include="Entities\nfx_vehicle\FormXml\quick\{b7eb3fc4-3df9-4314-b9c3-4cc743c83287}_managed.xml" />
+    <Content Include="Entities\nfx_vehicle\RibbonDiff.xml" />
+    <Content Include="Entities\nfx_vehicle\SavedQueries\{292e41b5-937a-470d-b71c-5dd471fbce12}.xml" />
+    <Content Include="Entities\nfx_vehicle\SavedQueries\{2b45a400-cc96-4dd7-a4dc-ef1206673449}.xml" />
+    <Content Include="Entities\nfx_vehicle\SavedQueries\{38471ba9-cf63-e711-8157-e0071b659ec1}.xml" />
+    <Content Include="Entities\nfx_vehicle\SavedQueries\{6b3bdacf-d1ef-4dd9-a0a0-02ab546b080b}.xml" />
+    <Content Include="Entities\nfx_vehicle\SavedQueries\{94b8020f-eeaf-447f-86fd-6a52e8af226c}.xml" />
+    <Content Include="Entities\nfx_vehicle\SavedQueries\{b5397fe9-7505-4996-bc48-540604081908}.xml" />
+    <Content Include="Entities\nfx_vehicle\SavedQueries\{da7cbd03-844c-449d-9cad-75eefe58fa4b}.xml" />
+    <Content Include="Entities\Report\Entity.xml" />
+    <Content Include="Entities\Report\RibbonDiff.xml" />
+    <Content Include="Entities\Report\SavedQueries\{66ab9908-e468-e711-813e-e0071b6d9931}.xml" />
+    <Content Include="OptionSets\nfx_rentalmode.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\EntityMaps.xml" />
+    <Content Include="Other\FieldSecurityProfiles.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\BusinessUnit.xml" />
+    <Content Include="Other\Relationships\Contact.xml" />
+    <Content Include="Other\Relationships\nfx_booking.xml" />
+    <Content Include="Other\Relationships\nfx_vehicle.xml" />
+    <Content Include="Other\Relationships\nfx_vehiclerentalmode.xml" />
+    <Content Include="Other\Relationships\Organization.xml" />
+    <Content Include="Other\Relationships\Owner.xml" />
+    <Content Include="Other\Relationships\ProcessStage.xml" />
+    <Content Include="Other\Relationships\SystemUser.xml" />
+    <Content Include="Other\Relationships\Team.xml" />
+    <Content Include="Other\Relationships\TransactionCurrency.xml" />
+    <Content Include="Other\Relationships\Workflow.xml" />
+    <Content Include="Other\Solution.xml" />
+    <Content Include="PluginAssemblies\CrmSatXrmPlugins-FD216655-35A8-4A91-B3AD-0B9D8528E538\CrmSatXrmPlugins.dll.data.xml" />
+    <Content Include="PluginAssemblies\CrmSatXrmWorkflows-38399F9B-1F22-4872-AFCE-079CF394F593\CrmSatXrmWorkflows.dll.data.xml" />
+    <Content Include="Reports\1033\{f2267f81-dd68-e711-813e-e0071b6d9931}\Booking Summary.rdl.data.xml" />
+    <Content Include="Reports\ReportSignatureIdMappings.xml" />
+    <Content Include="Roles\Booking Module - App Access.xml" />
+    <Content Include="SdkMessageProcessingSteps\{b1fbf156-1667-e711-813e-e0071b6d9931}.xml" />
+    <Content Include="Templates\EmailDocuments\1033\{4b877856-e568-e711-813e-e0071b6d9931}\body.xsl" />
+    <Content Include="Templates\EmailDocuments\1033\{4b877856-e568-e711-813e-e0071b6d9931}\presentationxml.xml" />
+    <Content Include="Templates\EmailDocuments\1033\{4b877856-e568-e711-813e-e0071b6d9931}\subject.xsl" />
+    <Content Include="Templates\EmailDocuments\1033\{4b877856-e568-e711-813e-e0071b6d9931}\subjectpresentationxml.xml" />
+    <Content Include="Templates\EmailTemplates.xml" />
+    <Content Include="WebResources\nfx_\Booking\Images\status_approved.png.data.xml" />
+    <Content Include="WebResources\nfx_\Booking\Images\status_pending.png.data.xml" />
+    <Content Include="WebResources\nfx_\Booking\Images\status_rejected.png.data.xml" />
+    <Content Include="WebResources\nfx_\Booking\Images\status_suspending.png.data.xml" />
+    <Content Include="WebResources\nfx_\Booking\Scripts\bookingMain.js.data.xml" />
+    <Content Include="WebResources\nfx_\Booking\Scripts\bookingView.js.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\booking.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\booking128.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\booking16.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\booking32.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\bookingico128.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\bookingico16.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\bookingico32.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\devenvrionment.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\rental128.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\rental16.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\rental32.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\vehicle128.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\vehicle16.png.data.xml" />
+    <Content Include="WebResources\nfx_\components.shared\images\vehicle32.png.data.xml" />
+    <Content Include="Workflows\BookingProcessFlow-24806CB1-C546-40B3-95AD-4E25C6A127A5.xaml.data.xml" />
+    <Content Include="Workflows\SetApprovalTeam-C4C77841-A429-4621-85F6-81F805CF5E4A.xaml.data.xml" />
+    <Content Include="Workflows\SetName-Booking-E531F8EC-0288-42D0-9DB5-1C91DDDB032B.xaml.data.xml" />
+    <Content Include="Workflows\SetName-Vehicle-AA3CEF84-7270-4304-9B2C-FE31E7FC1056.xaml.data.xml" />
+    <Content Include="Workflows\SetName-VehicleRentalMode-0F0ED1F4-5C03-4BC8-A633-A5DCF52FACC6.xaml.data.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Entities\nfx_bookingprocessflow\Formulas\nfx_bookingprocessflow-bpf_duration.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Workflows\BookingProcessFlow-24806CB1-C546-40B3-95AD-4E25C6A127A5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Workflows\SetApprovalTeam-C4C77841-A429-4621-85F6-81F805CF5E4A.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Workflows\SetName-Booking-E531F8EC-0288-42D0-9DB5-1C91DDDB032B.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Workflows\SetName-Vehicle-AA3CEF84-7270-4304-9B2C-FE31E7FC1056.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Workflows\SetName-VehicleRentalMode-0F0ED1F4-5C03-4BC8-A633-A5DCF52FACC6.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Reports\1033\{f2267f81-dd68-e711-813e-e0071b6d9931}\Booking Summary.rdl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="Build">
+    <Exec Command="&quot;$(SolutionDir)\Nullfactory.Xrm.Tooling\bin\coretools\SolutionPackager.exe&quot; /action:pack /packagetype:both /folder:&quot;$(MSBuildProjectDirectory)&quot; /zipfile:&quot;$(OutDir)$(MSBuildProjectName).zip&quot; /map:&quot;$(SolutionDir)\Nullfactory.Xrm.Tooling\Mappings\VehicleBookingModule-mapping.xml&quot;" />
+  </Target>
+</Project>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Booking Module: Process Booking Initialization" SdkMessageProcessingStepId="{b1fbf156-1667-e711-813e-e0071b6d9931}">
+  <PluginTypeName>CrmSat.Xrm.Plugins.ProcessBookingPlugin, CrmSat.Xrm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8360c71657ede828</PluginTypeName>
+  <PluginTypeId>55e56456-ace4-e711-a826-000d3ae0c995</PluginTypeId>
+  <PrimaryEntity>nfx_booking</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CrmSat.Xrm.Plugins.ProcessBookingPlugin: Update of nfx_booking</Description>
+  <FilteringAttributes>nfx_rentalperiod,nfx_startdate,nfx_vehicleid,nfx_vehiclerentalmodeid</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="Image">
+      <SdkMessageProcessingStepImageId>{96f589c8-1667-e711-813e-e0071b6d9931}</SdkMessageProcessingStepImageId>
+      <Attributes></Attributes>
+      <EntityAlias>Image</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

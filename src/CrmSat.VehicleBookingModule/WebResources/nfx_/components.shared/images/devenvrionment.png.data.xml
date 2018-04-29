@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{74c7a162-7965-e711-8157-e0071b659ec1}</WebResourceId>
+  <Name>nfx_/components.shared/images/devenvrionment.png</Name>
+  <DisplayName>/components.shared/images/devenvrionment.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/nfx_componentssharedimagesdevenvrionmentpng74C7A162-7965-E711-8157-E0071B659EC1</FileName>
+</WebResource>

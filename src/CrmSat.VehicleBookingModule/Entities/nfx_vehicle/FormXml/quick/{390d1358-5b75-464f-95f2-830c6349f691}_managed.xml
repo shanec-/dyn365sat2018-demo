@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{390d1358-5b75-464f-95f2-830c6349f691}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{ff02c4df-45f6-43e7-9eb7-fe524af4f4fe}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{a73202bd-8d56-4c58-9342-53d161cb5ab2}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{463ac3c4-e280-9055-6615-22273b0108a7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nfx_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ae9c6e3-858b-e5c0-dc6e-67c3e52c7b7d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_modeltype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="nfx_modeltype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce82d747-e5c6-2640-cb5c-bdbd3ac393d9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_registrationnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nfx_registrationnumber" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick View - Default" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

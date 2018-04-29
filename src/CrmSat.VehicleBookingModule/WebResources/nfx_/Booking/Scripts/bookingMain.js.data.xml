@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{214f96e7-d568-e711-813e-e0071b6d9931}</WebResourceId>
+  <Name>nfx_/booking/scripts/bookingMain.js</Name>
+  <DisplayName>/booking/scripts/bookingMain.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/nfx_bookingscriptsbookingMainjs214F96E7-D568-E711-813E-E0071B6D9931</FileName>
+</WebResource>

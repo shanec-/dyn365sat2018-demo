@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{0bcf9c96-3b2f-4731-97d2-655148289fa1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{93a86c7c-30ae-4bc1-b81b-de190976bf2d}" IsUserDefined="1" name="{93a86c7c-30ae-4bc1-b81b-de190976bf2d}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{69093df6-485d-446a-9c58-917c3d831914}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cf9bf605-953b-4572-9f90-cb164c3af51f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nfx_name" uniqueid="{e42d18b5-a441-a066-338a-c69dcb8b1eab}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3479c9cb-02b1-da57-4a55-028a1a48d8b8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Booking Date" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_bookingdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="nfx_bookingdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24530408-1db5-c33a-557d-e982e15ed424}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nfx_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc8c9a8d-43d9-7216-1170-5e6088ea7d03}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Vehicle" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_vehicleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nfx_vehicleid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{48c880bb-e98d-ca9c-0144-bc4625ec17d6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rental Mode" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_vehiclerentalmodeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nfx_vehiclerentalmodeid" disabled="false" uniqueid="{95ce0758-8dca-ecce-5926-9d247526d9a2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{193978A5-4F4F-44F9-A61C-65853076E2C0}</DefaultViewId>
+                            <FilterRelationshipName>nfx_vehicle_vehiclerentalmode</FilterRelationshipName>
+                            <DependentAttributeName>nfx_booking.nfx_vehicleid</DependentAttributeName>
+                            <DependentAttributeType>nfx_vehicle</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9278d8c4-23d8-058b-72bb-73b2bd8c2535}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rental Period" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_rentalperiod" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="nfx_rentalperiod" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{132ba43a-dc99-279b-b89c-5c1137b00e7c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="nfx_startdate" disabled="false" uniqueid="{ec477c74-ac5e-dcd9-3163-5377c11c16c6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be68eec6-b29b-8266-e99b-5071014429c4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_enddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="nfx_enddate" disabled="true" uniqueid="{a7ea5112-4243-6b07-cc7a-4be177108617}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{743a0a7e-2217-2dda-2b51-791a4427460b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_totalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="nfx_totalamount" disabled="true" uniqueid="{78116b75-cab3-b9e4-36a9-71070b4a1138}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{380901fb-ab4e-4953-aca5-b3ce8608c2ed}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{b499b746-0627-78c0-431b-74c4654bcb0a}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="{93a86c7c-30ae-4bc1-b81b-de190976bf2d}_section_3" showlabel="false" showbar="false" locklevel="0" id="{dc8d06e2-59b8-c310-0851-1b012e70181d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Contact Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c76672c5-9a08-bcd7-2032-b9eb61e9e5b9}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Contact Details" languagecode="1033" />
+                        </labels>
+                        <control id="ContactDetails" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="nfx_contactid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;bdb0ae1c-32fa-4374-b637-8dafe107bc44&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="{93a86c7c-30ae-4bc1-b81b-de190976bf2d}_section_4" showlabel="false" showbar="false" locklevel="0" id="{2319e7c4-e6c1-09e6-8d33-ce514ee640a2}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Vehicle Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{21021e14-14bb-1919-c57a-3340c8150e9d}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Vehicle Details" languagecode="1033" />
+                        </labels>
+                        <control id="VehicleDetails" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="nfx_vehicleid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="nfx_vehicle"&gt;390d1358-5b75-464f-95f2-830c6349f691&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{01b7dd0a-bf08-4004-9b78-ff5886a8418e}" columns="111">
+        <rows>
+          <row>
+            <cell id="{1296cbd0-d026-bd1b-502c-e8a414c626c0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{53137c70-e2a6-cd30-3140-d308de8b0d5a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{66849a63-e847-838a-6a65-12e3d1181776}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Assigned To" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" uniqueid="{615576a3-7965-2689-6c41-57504b59a78a}">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                </parameters>
+              </control>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="nfx_/booking/scripts/bookingMain.js" libraryUniqueId="{48e934c0-4527-c76e-9d45-c341077b134d}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="nfx.FormLoad" libraryName="nfx_/booking/scripts/bookingMain.js" handlerUniqueId="{d4dd9ba5-a5d3-aa06-ce8c-cc26958a0d4e}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.0.0002.0054" SolutionPackageVersion="9.0" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>VehicleBookingModule</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Vehicle Booking Module" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>nullfactory</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Nullfactory" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>nfx</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>22482</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="nfx_booking" behavior="0" />
+      <RootComponent type="1" schemaName="nfx_bookingprocessflow" behavior="0" />
+      <RootComponent type="1" schemaName="nfx_vehicle" behavior="0" />
+      <RootComponent type="1" schemaName="nfx_vehiclerentalmode" behavior="0" />
+      <RootComponent type="1" schemaName="report" behavior="2" />
+      <RootComponent type="9" schemaName="nfx_rentalmode" behavior="0" />
+      <RootComponent type="20" id="{62e91426-e668-e711-813e-e0071b6d9931}" behavior="0" />
+      <RootComponent type="29" id="{0f0ed1f4-5c03-4bc8-a633-a5dcf52facc6}" behavior="0" />
+      <RootComponent type="29" id="{24806cb1-c546-40b3-95ad-4e25c6a127a5}" behavior="0" />
+      <RootComponent type="29" id="{aa3cef84-7270-4304-9b2c-fe31e7fc1056}" behavior="0" />
+      <RootComponent type="29" id="{c4c77841-a429-4621-85f6-81f805cf5e4a}" behavior="0" />
+      <RootComponent type="29" id="{e531f8ec-0288-42d0-9db5-1c91dddb032b}" behavior="0" />
+      <RootComponent type="31" id="{f2267f81-dd68-e711-813e-e0071b6d9931}" behavior="0" />
+      <RootComponent type="36" id="{4b877856-e568-e711-813e-e0071b6d9931}" behavior="0" />
+      <RootComponent type="60" id="{0bcf9c96-3b2f-4731-97d2-655148289fa1}" behavior="0" />
+      <RootComponent type="60" id="{390d1358-5b75-464f-95f2-830c6349f691}" behavior="0" />
+      <RootComponent type="60" id="{6fc60270-9abe-418c-910f-77248d95b560}" behavior="0" />
+      <RootComponent type="60" id="{9cc74e90-d926-4d23-9cd2-f456719efeb0}" behavior="0" />
+      <RootComponent type="60" id="{b7eb3fc4-3df9-4314-b9c3-4cc743c83287}" behavior="0" />
+      <RootComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" behavior="0" />
+      <RootComponent type="60" id="{df28b32e-eaa6-4a2d-aa7a-ddc99d4fcd6c}" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/Booking/Images/status_approved.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/Booking/Images/status_pending.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/Booking/Images/status_rejected.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/Booking/Images/status_suspending.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/booking/scripts/bookingMain.js" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/Booking/Scripts/bookingView.js" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/booking.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/booking128.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/booking16.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/booking32.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/bookingico128.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/bookingico16.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/bookingico32.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/devenvrionment.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/rental128.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/rental16.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/rental32.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/vehicle128.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/vehicle16.png" behavior="0" />
+      <RootComponent type="61" schemaName="nfx_/components.shared/images/vehicle32.png" behavior="0" />
+      <RootComponent type="62" schemaName="nfx_vehiclebooking" behavior="0" />
+      <RootComponent type="70" id="{053590e0-e768-e711-813e-e0071b6d9931}" behavior="0" />
+      <RootComponent type="80" schemaName="nfx_VehicleBooking" behavior="0" />
+      <RootComponent type="91" id="{fd216655-35a8-4a91-b3ad-0b9d8528e538}" schemaName="CrmSat.Xrm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8360c71657ede828" behavior="0" />
+      <RootComponent type="91" id="{38399f9b-1f22-4872-afce-079cf394f593}" schemaName="CrmSat.Xrm.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8360c71657ede828" behavior="0" />
+      <RootComponent type="92" id="{b1fbf156-1667-e711-813e-e0071b6d9931}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0052)" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="26" schemaName="Recent Cases" displayName="Recent Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{ebd1d24a-eea7-e211-9fb6-00155dd0ea05}" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="26" schemaName="Recent Opportunities" displayName="Recent Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{9c3f7ee8-eca7-e211-9fb6-00155dd0ea05}" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="59" schemaName="Case Mix (By Business Unit)" displayName="Case Mix (By Business Unit)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{f10375a6-4893-de11-97d4-00155da3b01e}" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0052)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="60" displayName="Contact Quick Form" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0052)" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+        <Dependent key="11" type="60" displayName="Contact Quick Form" parentDisplayName="Contact" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="13" type="80" schemaName="nfx_VehicleBooking" displayName="Vehicle Booking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="61" schemaName="msdyn_/Utils/head1.0.3.js" displayName="msdyn_/Utils/head1.0.3.js" solution="FieldService (7.4.0.80)" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="61" schemaName="msdyn_/Contact/Contact.Library.js" displayName="msdyn_/Contact/Contact.Library.js" solution="FieldService (7.4.0.80)" />
+        <Dependent key="1" type="60" displayName="Contact - Bookings" parentDisplayName="Contact" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

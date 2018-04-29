@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{24806cb1-c546-40b3-95ad-4e25c6a127a5}" Name="Booking Process Flow">
+  <XamlFileName>/Workflows/BookingProcessFlow-24806CB1-C546-40B3-95AD-4E25C6A127A5.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>nfx_bookingprocessflow</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>nfx_booking</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Booking Process Flow" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{b75bc2e3-92d3-41d7-99d5-3bc12ca1092d}">
+      <label languagecode="1033" description="Initial Booking" />
+    </steplabels>
+    <steplabels id="{915f0a4d-1944-43a9-8d9e-ec13dacb2228}">
+      <label languagecode="1033" description="Contact" />
+    </steplabels>
+    <steplabels id="{ac701784-0639-4914-9bc0-7a5042bbccc6}">
+      <label languagecode="1033" description="Vehicle" />
+    </steplabels>
+    <steplabels id="{e95b816d-5db5-4cab-be42-9765c60e3c08}">
+      <label languagecode="1033" description="Rental Mode" />
+    </steplabels>
+    <steplabels id="{004af399-a7bf-42ab-8865-e02cd5eb5c9d}">
+      <label languagecode="1033" description="Rental Period" />
+    </steplabels>
+    <steplabels id="{395af7ec-f7bd-4d1a-baa9-e7d01dafbd48}">
+      <label languagecode="1033" description="Approval" />
+    </steplabels>
+    <steplabels id="{10ce23d6-57d3-4875-b92a-a575e09cdbd5}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{09e1df62-e1e4-e711-a826-000d3ae0c995}">
+      <methodid>{c4c77841-a429-4621-85f6-81f805cf5e4a}</methodid>
+      <scope>1</scope>
+      <controlname>395af7ec-f7bd-4d1a-baa9-e7d01dafbd48</controlname>
+      <event>STAGEENTER</event>
+      <pipelinestage>40</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>nfx_booking</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

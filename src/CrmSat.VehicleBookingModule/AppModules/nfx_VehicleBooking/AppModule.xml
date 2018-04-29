@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>nfx_VehicleBooking</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>2</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="nfx_vehiclebooking" />
+    <AppModuleComponent type="29" id="{24806cb1-c546-40b3-95ad-4e25c6a127a5}" />
+    <AppModuleComponent type="1" schemaName="nfx_booking" />
+    <AppModuleComponent type="60" id="{0bcf9c96-3b2f-4731-97d2-655148289fa1}" />
+    <AppModuleComponent type="1" schemaName="nfx_bookingprocessflow" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{6fc60270-9abe-418c-910f-77248d95b560}" />
+    <AppModuleComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+    <AppModuleComponent type="1" schemaName="nfx_vehicle" />
+    <AppModuleComponent type="60" id="{b7eb3fc4-3df9-4314-b9c3-4cc743c83287}" />
+    <AppModuleComponent type="60" id="{df28b32e-eaa6-4a2d-aa7a-ddc99d4fcd6c}" />
+    <AppModuleComponent type="60" id="{390d1358-5b75-464f-95f2-830c6349f691}" />
+    <AppModuleComponent type="1" schemaName="nfx_vehiclerentalmode" />
+    <AppModuleComponent type="60" id="{9cc74e90-d926-4d23-9cd2-f456719efeb0}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Vehicle Booking" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

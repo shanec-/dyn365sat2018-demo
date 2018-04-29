@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="CrmSat.Xrm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8360c71657ede828" PluginAssemblyId="fd216655-35a8-4a91-b3ad-0b9d8528e538" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CrmSatXrmPlugins-FD216655-35A8-4A91-B3AD-0B9D8528E538/CrmSatXrmPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="CrmSat.Xrm.Plugins.ProcessBookingPlugin, CrmSat.Xrm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8360c71657ede828" PluginTypeId="55e56456-ace4-e711-a826-000d3ae0c995" Name="CrmSat.Xrm.Plugins.ProcessBookingPlugin">
+      <FriendlyName>314cebe6-abd0-4a92-9c23-f8c8ac74f18e</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

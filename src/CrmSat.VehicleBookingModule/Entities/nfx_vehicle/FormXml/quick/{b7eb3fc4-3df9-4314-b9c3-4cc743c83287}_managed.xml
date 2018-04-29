@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{b7eb3fc4-3df9-4314-b9c3-4cc743c83287}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{7709995a-2dfe-4192-ad88-20cdc4608800}" IsUserDefined="1" name="{7709995a-2dfe-4192-ad88-20cdc4608800}" locklevel="0" expanded="true" showlabel="false">
+          <labels>
+            <label description="Vehicle Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{8ce4a64e-d58f-46da-add2-8883052fbbc4}" name="{8ce4a64e-d58f-46da-add2-8883052fbbc4}" columns="1" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Vehicle Summary" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{30b498d0-024e-42e7-9cc5-6364eda19b31}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nfx_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6962454b-555c-649a-40de-7c0e802c7738}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_modeltype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="nfx_modeltype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{269c16c9-a7dc-13a7-0985-e42a99aa0561}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nfx_registrationnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nfx_registrationnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0381765-690d-44b5-b1b0-6a20e6053472}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{98e104d4-5785-79b9-8212-6532363074bc}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{62e91426-e668-e711-813e-e0071b6d9931}" name="Booking Module - App Access">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendnfx_bookingprocessflow" level="Global" />
+    <RolePrivilege name="prvAppendTonfx_bookingprocessflow" level="Global" />
+    <RolePrivilege name="prvCreateAppModule" level="Global" />
+    <RolePrivilege name="prvCreatenfx_bookingprocessflow" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeleteAppModule" level="Global" />
+    <RolePrivilege name="prvDeletenfx_bookingprocessflow" level="Global" />
+    <RolePrivilege name="prvReadAppModule" level="Global" />
+    <RolePrivilege name="prvReadnfx_bookingprocessflow" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvWriteAppModule" level="Global" />
+    <RolePrivilege name="prvWritenfx_bookingprocessflow" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

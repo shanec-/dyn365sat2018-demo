@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Mapping>
+<!--   <FileToFile map="PluginAssemblies\**\ProjectXrmPlugins.dll" to="..\Project.Xrm.Plugins\bin\**\Project.Xrm.Plugins.dll" />
+  <FileToFile map="WebResources\nf_MyComponent\Images\test_image.jpg" to="..\Project.Solution1.WebResources\MyComponent\Images\test_image.jpg" />
+ -->
+
+
+  <FileToFile map="PluginAssemblies\**\CrmSatXrmPlugins.dll" to="..\CrmSat.Xrm.Plugins\bin\**\CrmSat.Xrm.Plugins.dll" />
+  <FileToFile map="PluginAssemblies\**\CrmSatXrmWorkflows.dll" to="..\CrmSat.Xrm.Workflows\bin\**\CrmSat.Xrm.Workflows.dll" />
+
+
+  <FileToFile map="WebResources\nfx_\components.shared\Images\booking.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\booking.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\booking128.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\booking128.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\booking16.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\booking16.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\booking32.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\booking32.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\bookingico128.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\bookingico128.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\bookingico16.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\bookingico16.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\bookingico32.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\bookingico32.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\devenvrionment.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\devenvrionment.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\rental128.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\rental128.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\rental16.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\rental16.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\rental32.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\rental32.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\vehicle128.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\vehicle128.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\vehicle16.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\vehicle16.png" />
+  <FileToFile map="WebResources\nfx_\components.shared\Images\vehicle32.png" to="..\CrmSat.VehicleBookingModule.WebResources\components.shared\Images\vehicle32.png" />
+                                
+  <FileToFile map="WebResources\nfx_\Booking\Images\status_approved.png" to="..\CrmSat.VehicleBookingModule.WebResources\Booking\Images\status_approved.png" />
+  <FileToFile map="WebResources\nfx_\Booking\Images\status_pending.png" to="..\CrmSat.VehicleBookingModule.WebResources\Booking\Images\status_pending.png" />
+  <FileToFile map="WebResources\nfx_\Booking\Images\status_rejected.png" to="..\CrmSat.VehicleBookingModule.WebResources\Booking\Images\status_rejected.png" />
+  <FileToFile map="WebResources\nfx_\Booking\Images\status_suspending.png" to="..\CrmSat.VehicleBookingModule.WebResources\Booking\Images\status_suspending.png" />
+                                
+  <FileToFile map="WebResources\nfx_\Booking\Scripts\bookingMain.js" to="..\CrmSat.VehicleBookingModule.WebResources\Booking\Scripts\bookingMain.js" />
+  <FileToFile map="WebResources\nfx_\Booking\Scripts\bookingView.js" to="..\CrmSat.VehicleBookingModule.WebResources\Booking\Scripts\bookingView.js" />
+
+</Mapping>

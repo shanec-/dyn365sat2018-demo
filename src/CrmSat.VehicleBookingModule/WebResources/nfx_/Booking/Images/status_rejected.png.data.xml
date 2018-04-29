@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{32b8f4a9-196a-e711-815c-e0071b675c91}</WebResourceId>
+  <Name>nfx_/Booking/Images/status_rejected.png</Name>
+  <DisplayName>/Booking/Images/status_rejected.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/nfx_BookingImagesstatus_rejectedpng32B8F4A9-196A-E711-815C-E0071B675C91</FileName>
+</WebResource>
